@@ -1,0 +1,15 @@
+{
+  "name": "@plesk/eslint-config",
+  "version": "1.0.0",
+  "description": "Plesk ESLint config",
+  "main": "index.js",
+  "files": {
+    "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plesk/eslint-config.git"
+  },
+  "author": "Alexey Sinko",
+  "license": "Apache-2.0"
+}
