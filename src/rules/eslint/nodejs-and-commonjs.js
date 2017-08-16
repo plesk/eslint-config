@@ -1,5 +1,5 @@
 /**
- * @see {@link http://eslint.org/docs/rules/#nodejs-and-commonjs|Node.js and CommonJS}
+ * @see {@link http://eslint.org/docs/rules/#nodejs-and-commonjs | Node.js and CommonJS}
  */
 module.exports = {
     // require return statements after callbacks

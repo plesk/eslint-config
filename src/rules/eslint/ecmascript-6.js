@@ -1,5 +1,5 @@
 /**
- * @see {@link http://eslint.org/docs/rules/#ecmascript-6|ECMAScript 6}
+ * @see {@link http://eslint.org/docs/rules/#ecmascript-6 | ECMAScript 6}
  */
 module.exports = {
     // require braces around arrow function bodies

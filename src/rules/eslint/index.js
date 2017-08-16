@@ -1,5 +1,5 @@
 /**
- * @see {http://eslint.org/docs/rules/|ESLint Rules}
+ * @see {@link http://eslint.org/docs/rules/ | ESLint Rules}
  */
 module.exports = Object.assign(
     {},
@@ -9,5 +9,5 @@ module.exports = Object.assign(
     require('./variables'),
     require('./nodejs-and-commonjs'),
     require('./stylistic-issues'),
-    require('./ecmascript-6'),
+    require('./ecmascript-6')
 );

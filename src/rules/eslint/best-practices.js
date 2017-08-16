@@ -1,5 +1,5 @@
 /**
- * @see {@link http://eslint.org/docs/rules/#best-practices|Best Practices}
+ * @see {@link http://eslint.org/docs/rules/#best-practices | Best Practices}
  */
 module.exports = {
     // enforce getter and setter pairs in objects
@@ -21,7 +21,7 @@ module.exports = {
     // 'consistent-return': 'off',
 
     // enforce consistent brace style for all control statements
-    // 'curly': 'off',
+    'curly': ['error', 'all'],
 
     // require default cases in switch statements
     // 'default-case': 'off',

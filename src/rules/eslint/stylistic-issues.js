@@ -1,5 +1,5 @@
 /**
- * @see {@link http://eslint.org/docs/rules/#stylistic-issues|Stylistic Issues}
+ * @see {@link http://eslint.org/docs/rules/#stylistic-issues | Stylistic Issues}
  */
 module.exports = {
     // enforce linebreaks after opening and before closing array brackets
@@ -15,7 +15,7 @@ module.exports = {
     // 'block-spacing': 'off',
 
     // enforce consistent brace style for blocks
-    // 'brace-style': 'off',
+    'brace-style': ['error', '1tbs'],
 
     // enforce camelcase naming convention
     // 'camelcase': 'off',
@@ -63,7 +63,7 @@ module.exports = {
     // 'id-match': 'off',
 
     // enforce consistent indentation
-    // 'indent': 'off',
+    'indent': ['error', 4, { "SwitchCase": 1 }],
 
     // enforce the consistent use of either double or single quotes in JSX attributes
     // 'jsx-quotes': 'off',
@@ -87,7 +87,7 @@ module.exports = {
     // 'max-depth': 'off',
 
     // enforce a maximum line length
-    // 'max-len': 'off',
+    'max-len': ['error', 180],
 
     // enforce a maximum number of lines per file
     // 'max-lines': 'off',
@@ -102,7 +102,7 @@ module.exports = {
     // 'max-statements': 'off',
 
     // enforce a maximum number of statements allowed per line
-    // 'max-statements-per-line': 'off',
+    'max-statements-per-line': ['error', { "max": 1 }],
 
     // enforce newlines between operands of ternary expressions
     // 'multiline-ternary': 'off',
@@ -216,7 +216,7 @@ module.exports = {
     // 'require-jsdoc': 'off',
 
     // require or disallow semicolons instead of ASI
-    // 'semi': 'off',
+    'semi': ['error', 'always'],
 
     // enforce consistent spacing before and after semicolons
     // 'semi-spacing': 'off',

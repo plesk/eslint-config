@@ -1,5 +1,5 @@
 /**
- * @see {@link http://eslint.org/docs/rules/#variables|Variables}
+ * @see {@link http://eslint.org/docs/rules/#variables | Variables}
  */
 module.exports = {
     // require or disallow initialization in variable declarations

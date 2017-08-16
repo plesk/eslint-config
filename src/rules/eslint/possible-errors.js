@@ -1,5 +1,5 @@
 /**
- * @see {@link http://eslint.org/docs/rules/#possible-errors|Possible Errors}
+ * @see {@link http://eslint.org/docs/rules/#possible-errors | Possible Errors}
  */
 module.exports = {
     // enforce “for” loop update clause moving the counter in the right direction.
@@ -54,7 +54,7 @@ module.exports = {
     // 'no-extra-parens': 'off',
 
     // disallow unnecessary semicolons
-    // 'no-extra-semi': 'off',
+    'no-extra-semi': 'error',
 
     // disallow reassigning function declarations
     // 'no-func-assign': 'off',

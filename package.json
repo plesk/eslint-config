@@ -1,11 +1,19 @@
 {
   "name": "@plesk/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plesk ESLint config",
   "main": "index.js",
   "files": [
+    "src",
     "index.js"
   ],
+  "scripts": {
+    "test": "eslint ."
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/plesk/eslint-config.git"
