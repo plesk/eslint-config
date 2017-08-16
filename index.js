@@ -1,5 +1,5 @@
+const eslint = require('./src/rules/eslint');
+
 module.exports = {
-    rules: {
-        "eol-last": ["error", "always"]
-    }
+    rules: eslint,
 };

@@ -3,7 +3,7 @@
 ESLint configuration for Plesk projects
 
 
-## Usage
+## Installation
 
 ```
 npm install --save-dev @plesk/eslint-config
