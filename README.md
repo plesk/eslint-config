@@ -2,6 +2,9 @@
 
 ESLint configuration for Plesk projects
 
+[![NPM version](https://img.shields.io/npm/v/@plesk/eslint-config.svg)](https://www.npmjs.org/package/@plesk/eslint-config)
+[![NPM Downloads](https://img.shields.io/npm/dm/@plesk/eslint-config.svg)](https://www.npmjs.org/package/@plesk/eslint-config)
+
 
 ## Installation
 
