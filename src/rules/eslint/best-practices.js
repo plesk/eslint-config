@@ -6,7 +6,7 @@ module.exports = {
     // 'accessor-pairs': 'off',
 
     // enforce return statements in callbacks of array methods
-    // 'array-callback-return': 'off',
+    'array-callback-return': 'error',
 
     // enforce the use of variables within the scope they are defined
     // 'block-scoped-var': 'off',
@@ -21,7 +21,7 @@ module.exports = {
     // 'consistent-return': 'off',
 
     // enforce consistent brace style for all control statements
-    'curly': ['error', 'all'],
+    curly: ['error', 'all'],
 
     // require default cases in switch statements
     // 'default-case': 'off',
@@ -30,7 +30,7 @@ module.exports = {
     // 'dot-location': 'off',
 
     // enforce dot notation whenever possible
-    // 'dot-notation': 'off',
+    'dot-notation': 'error',
 
     // require the use of === and !==
     // 'eqeqeq': 'off',
@@ -105,22 +105,22 @@ module.exports = {
     // 'no-lone-blocks': 'off',
 
     // disallow function declarations and expressions inside loop statements
-    // 'no-loop-func': 'off',
+    'no-loop-func': 'error',
 
     // disallow magic numbers
     // 'no-magic-numbers': 'off',
 
     // disallow multiple spaces
-    // 'no-multi-spaces': 'off',
+    'no-multi-spaces': 'error',
 
     // disallow multiline strings
-    // 'no-multi-str': 'off',
+    'no-multi-str': 'error',
 
     // disallow new operators outside of assignments or comparisons
     // 'no-new': 'off',
 
     // disallow new operators with the Function object
-    // 'no-new-func': 'off',
+    'no-new-func': 'error',
 
     // disallow new operators with the String, Number, and Boolean objects
     // 'no-new-wrappers': 'off',
@@ -159,7 +159,7 @@ module.exports = {
     // 'no-self-compare': 'off',
 
     // disallow comma operators
-    // 'no-sequences': 'off',
+    'no-sequences': 'error',
 
     // disallow throwing literals as exceptions
     // 'no-throw-literal': 'off',
@@ -207,7 +207,7 @@ module.exports = {
     // 'vars-on-top': 'off',
 
     // require parentheses around immediate function invocations
-    // 'wrap-iife': 'off',
+    'wrap-iife': 'error',
 
     // require or disallow “Yoda” conditions
     // 'yoda': 'off',
