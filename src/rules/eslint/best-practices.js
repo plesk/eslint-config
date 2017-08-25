@@ -45,7 +45,7 @@ module.exports = {
     // 'no-caller': 'off',
 
     // disallow lexical declarations in case clauses
-    // 'no-case-declarations': 'off',
+    'no-case-declarations': 'error',
 
     // disallow division operators explicitly at the beginning of regular expressions
     // 'no-div-regex': 'off',
@@ -57,7 +57,7 @@ module.exports = {
     // 'no-empty-function': 'off',
 
     // disallow empty destructuring patterns
-    // 'no-empty-pattern': 'off',
+    'no-empty-pattern': 'error',
 
     // disallow null comparisons without type-checking operators
     // 'no-eq-null': 'off',
@@ -75,13 +75,13 @@ module.exports = {
     // 'no-extra-label': 'off',
 
     // disallow fallthrough of case statements
-    // 'no-fallthrough': 'off',
+    'no-fallthrough': 'error',
 
     // disallow leading or trailing decimal points in numeric literals
     // 'no-floating-decimal': 'off',
 
     // disallow assignments to native objects or read-only global variables
-    // 'no-global-assign': 'off',
+    'no-global-assign': 'error',
 
     // disallow shorthand type conversions
     // 'no-implicit-coercion': 'off',
@@ -126,7 +126,7 @@ module.exports = {
     // 'no-new-wrappers': 'off',
 
     // disallow octal literals
-    // 'no-octal': 'off',
+    'no-octal': 'error',
 
     // disallow octal escape sequences in string literals
     // 'no-octal-escape': 'off',
@@ -138,7 +138,7 @@ module.exports = {
     // 'no-proto': 'off',
 
     // disallow variable redeclaration
-    // 'no-redeclare': 'off',
+    'no-redeclare': 'error',
 
     // disallow certain properties on certain objects
     // 'no-restricted-properties': 'off',
@@ -153,7 +153,7 @@ module.exports = {
     // 'no-script-url': 'off',
 
     // disallow assignments where both sides are exactly the same
-    // 'no-self-assign': 'off',
+    'no-self-assign': 'error',
 
     // disallow comparisons where both sides are exactly the same
     // 'no-self-compare': 'off',
@@ -171,7 +171,7 @@ module.exports = {
     // 'no-unused-expressions': 'off',
 
     // disallow unused labels
-    // 'no-unused-labels': 'off',
+    'no-unused-labels': 'error',
 
     // disallow unnecessary calls to .call() and .apply()
     // 'no-useless-call': 'off',
@@ -180,7 +180,7 @@ module.exports = {
     // 'no-useless-concat': 'off',
 
     // disallow unnecessary escape characters
-    // 'no-useless-escape': 'off',
+    'no-useless-escape': 'error',
 
     // disallow redundant return statements
     // 'no-useless-return': 'off',

@@ -135,7 +135,7 @@ module.exports = {
     // 'no-mixed-operators': 'off',
 
     // disallow mixed spaces and tabs for indentation
-    // 'no-mixed-spaces-and-tabs': 'off',
+    'no-mixed-spaces-and-tabs': 'error',
 
     // disallow use of chained assignment expressions
     // 'no-multi-assign': 'off',

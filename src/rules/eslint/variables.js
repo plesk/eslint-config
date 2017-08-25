@@ -9,7 +9,7 @@ module.exports = {
     // 'no-catch-shadow': 'off',
 
     // disallow deleting variables
-    // 'no-delete-var': 'off',
+    'no-delete-var': 'error',
 
     // disallow labels that share a name with a variable
     // 'no-label-var': 'off',
@@ -24,7 +24,7 @@ module.exports = {
     // 'no-shadow-restricted-names': 'off',
 
     // disallow the use of undeclared variables unless mentioned in /*global */ comments
-    // 'no-undef': 'off',
+    'no-undef': 'error',
 
     // disallow initializing variables to undefined
     // 'no-undef-init': 'off',
@@ -33,7 +33,7 @@ module.exports = {
     // 'no-undefined': 'off',
 
     // disallow unused variables
-    // 'no-unused-vars': 'off',
+    'no-unused-vars': 'error',
 
     // disallow the use of variables before they are defined
     // 'no-use-before-define': 'off',

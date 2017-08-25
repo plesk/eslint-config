@@ -12,34 +12,34 @@ module.exports = {
     // 'arrow-spacing': 'off',
 
     // require super() calls in constructors
-    // 'constructor-super': 'off',
+    'constructor-super': 'error',
 
     // enforce consistent spacing around * operators in generator functions
     // 'generator-star-spacing': 'off',
 
     // disallow reassigning class members
-    // 'no-class-assign': 'off',
+    'no-class-assign': 'error',
 
     // disallow arrow functions where they could be confused with comparisons
     // 'no-confusing-arrow': 'off',
 
     // disallow reassigning const variables
-    // 'no-const-assign': 'off',
+    'no-const-assign': 'error',
 
     // disallow duplicate class members
-    // 'no-dupe-class-members': 'off',
+    'no-dupe-class-members': 'error',
 
     // disallow duplicate module imports
     // 'no-duplicate-imports': 'off',
 
     // disallow new operators with the Symbol object
-    // 'no-new-symbol': 'off',
+    'no-new-symbol': 'error',
 
     // disallow specified modules when loaded by import
     // 'no-restricted-imports': 'off',
 
     // disallow this/super before calling super() in constructors
-    // 'no-this-before-super': 'off',
+    'no-this-before-super': 'error',
 
     // disallow unnecessary computed property keys in object literals
     // 'no-useless-computed-key': 'off',
@@ -78,7 +78,7 @@ module.exports = {
     // 'prefer-template': 'off',
 
     // require generator functions to contain yield
-    // 'require-yield': 'off',
+    'require-yield': 'error',
 
     // enforce spacing between rest and spread operators and their expressions
     // 'rest-spread-spacing': 'off',
