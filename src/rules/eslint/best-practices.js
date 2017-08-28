@@ -63,7 +63,7 @@ module.exports = {
     // 'no-eq-null': 'off',
 
     // disallow the use of eval()
-    // 'no-eval': 'off',
+    'no-eval': 'error',
 
     // disallow extending native types
     // 'no-extend-native': 'off',
@@ -90,7 +90,7 @@ module.exports = {
     // 'no-implicit-globals': 'off',
 
     // disallow the use of eval()-like methods
-    // 'no-implied-eval': 'off',
+    'no-implied-eval': 'error',
 
     // disallow this keywords outside of classes or class-like objects
     // 'no-invalid-this': 'off',
@@ -207,7 +207,7 @@ module.exports = {
     // 'vars-on-top': 'off',
 
     // require parentheses around immediate function invocations
-    'wrap-iife': 'error',
+    'wrap-iife': ['error', 'inside'],
 
     // require or disallow “Yoda” conditions
     // 'yoda': 'off',
