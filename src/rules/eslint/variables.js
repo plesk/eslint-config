@@ -2,39 +2,63 @@
  * @see {@link http://eslint.org/docs/rules/#variables | Variables}
  */
 module.exports = {
-    // require or disallow initialization in variable declarations
+    /**
+     * require or disallow initialization in variable declarations
+     */
     // 'init-declarations': 'off',
 
-    // disallow catch clause parameters from shadowing variables in the outer scope
+    /**
+     * disallow catch clause parameters from shadowing variables in the outer scope
+     */
     // 'no-catch-shadow': 'off',
 
-    // disallow deleting variables
+    /**
+     * disallow deleting variables
+     */
     'no-delete-var': 'error',
 
-    // disallow labels that share a name with a variable
+    /**
+     * disallow labels that share a name with a variable
+     */
     // 'no-label-var': 'off',
 
-    // disallow specified global variables
+    /**
+     * disallow specified global variables
+     */
     // 'no-restricted-globals': 'off',
 
-    // disallow variable declarations from shadowing variables declared in the outer scope
+    /**
+     * disallow variable declarations from shadowing variables declared in the outer scope
+     */
     // 'no-shadow': 'off',
 
-    // disallow identifiers from shadowing restricted names
+    /**
+     * disallow identifiers from shadowing restricted names
+     */
     // 'no-shadow-restricted-names': 'off',
 
-    // disallow the use of undeclared variables unless mentioned in /*global */ comments
+    /**
+     * disallow the use of undeclared variables unless mentioned in global comments
+     */
     'no-undef': 'error',
 
-    // disallow initializing variables to undefined
+    /**
+     * disallow initializing variables to undefined
+     */
     // 'no-undef-init': 'off',
 
-    // disallow the use of undefined as an identifier
+    /**
+     * disallow the use of undefined as an identifier
+     */
     // 'no-undefined': 'off',
 
-    // disallow unused variables
+    /**
+     * disallow unused variables
+     */
     'no-unused-vars': ['error', { ignoreRestSiblings: true }],
 
-    // disallow the use of variables before they are defined
+    /**
+     * disallow the use of variables before they are defined
+     */
     // 'no-use-before-define': 'off',
 };
