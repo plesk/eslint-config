@@ -1,5 +1,6 @@
 const eslint = require('./src/rules/eslint');
 const react = require('./src/rules/react');
+const plesk = require('./src/rules/plesk');
 
 module.exports = {
     env: {
@@ -16,11 +17,11 @@ module.exports = {
             experimentalObjectRestSpread: true,
         },
     },
-    plugins: ['react'],
+    plugins: ['react', '@plesk/plesk'],
     settings: {
         react: {
             version: '16.4',
         },
     },
-    rules: Object.assign({}, eslint, react),
+    rules: Object.assign({}, eslint, react, plesk),
 };
