@@ -1,6 +1,6 @@
 {
   "name": "@plesk/eslint-config",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Plesk ESLint config",
   "main": "index.js",
   "files": [
