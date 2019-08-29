@@ -4,5 +4,6 @@
 module.exports = Object.assign(
     {},
     require('./react'),
-    require('./jsx')
+    require('./jsx'),
+    require('./react-hooks')
 );

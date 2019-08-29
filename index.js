@@ -17,10 +17,10 @@ module.exports = {
             experimentalObjectRestSpread: true,
         },
     },
-    plugins: ['react', '@plesk/plesk'],
+    plugins: ['react', 'react-hooks', '@plesk/plesk'],
     settings: {
         react: {
-            version: '16.4',
+            version: '16.8',
         },
     },
     rules: Object.assign({}, eslint, react, plesk),
