@@ -190,7 +190,7 @@ module.exports = {
     /**
      * enforce a particular style for multiline comments
      */
-    'multiline-comment-style': 'error',
+    'multiline-comment-style': ['error', 'separate-lines'],
 
     /**
      * enforce newlines between operands of ternary expressions
