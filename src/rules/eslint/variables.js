@@ -8,11 +8,6 @@ module.exports = {
     // 'init-declarations': 'off',
 
     /**
-     * disallow catch clause parameters from shadowing variables in the outer scope
-     */
-    // 'no-catch-shadow': 'off',
-
-    /**
      * disallow deleting variables
      */
     'no-delete-var': 'error',
@@ -50,7 +45,7 @@ module.exports = {
     /**
      * disallow the use of undefined as an identifier
      */
-    // 'no-undefined': 'off',
+    'no-undefined': 'off',
 
     /**
      * disallow unused variables

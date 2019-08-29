@@ -63,6 +63,11 @@ module.exports = {
     // 'guard-for-in': 'off',
 
     /**
+     * enforce a maximum number of classes per file
+     */
+    // 'max-classes-per-file': 'off',
+
+    /**
      * disallow the use of alert, confirm, and prompt
      */
     'no-alert': 'error',
@@ -293,6 +298,11 @@ module.exports = {
     'no-useless-call': 'error',
 
     /**
+     * disallow unnecessary catch clauses
+     */
+    'no-useless-catch': 'error',
+
+    /**
      * disallow unnecessary concatenation of literals or template literals
      */
     'no-useless-concat': 'error',
@@ -323,6 +333,11 @@ module.exports = {
     'no-with': 'error',
 
     /**
+     * enforce using named capture group in regular expression
+     */
+    // 'prefer-named-capture-group': 'off',
+
+    /**
      * require using Error objects as Promise rejection reasons
      */
     // 'prefer-promise-reject-errors': 'off',
@@ -336,6 +351,11 @@ module.exports = {
      * disallow async functions which have no await expression
      */
     'require-await': 'error',
+
+    /**
+     * enforce the use of u flag on RegExp
+     */
+    // 'require-unicode-regexp': 'off',
 
     /**
      * require var declarations be placed at the top of their containing scope

@@ -88,6 +88,11 @@ module.exports = {
     'func-style': 'error',
 
     /**
+     * enforce line breaks between arguments of a function call
+     */
+    // 'function-call-argument-newline': 'off',
+
+    /**
      * enforce consistent line breaks inside function parentheses
      */
     // 'function-paren-newline': 'off',
@@ -166,6 +171,11 @@ module.exports = {
      * enforce a maximum number of lines per file
      */
     // 'max-lines': 'off',
+
+    /**
+     * enforce a maximum number of line of code in a function
+     */
+    // 'max-lines-per-function': 'off',
 
     /**
      * enforce a maximum depth that callbacks can be nested
@@ -363,6 +373,11 @@ module.exports = {
     // 'padding-line-between-statements': 'off',
 
     /**
+     * disallow using Object.assign with an object literal as the first argument and prefer the use of object spread instead.
+     */
+    'prefer-object-spread': 'error',
+
+    /**
      * require quotes around object literal property names
      */
     'quote-props': ['error', 'as-needed'],
@@ -371,11 +386,6 @@ module.exports = {
      * enforce the consistent use of either backticks, double, or single quotes
      */
     quotes: ['error', 'single', { avoidEscape: true }],
-
-    /**
-     * require JSDoc comments
-     */
-    // 'require-jsdoc': 'off',
 
     /**
      * require or disallow semicolons instead of ASI

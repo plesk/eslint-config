@@ -23,5 +23,5 @@ module.exports = {
             version: '16.8',
         },
     },
-    rules: Object.assign({}, eslint, react, plesk),
+    rules: { ...eslint, ...react, ...plesk },
 };
