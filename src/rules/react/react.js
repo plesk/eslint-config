@@ -153,6 +153,11 @@ module.exports = {
     'react/no-unknown-property': 'error',
 
     /**
+     * Prevent usage of unsafe lifecycle methods
+     */
+    'react/no-unsafe': 'error',
+
+    /**
      * Prevent definitions of unused prop types
      */
     'react/no-unused-prop-types': 'error',
@@ -171,6 +176,11 @@ module.exports = {
      * Enforce ES5 or ES6 class for React Components
      */
     'react/prefer-es6-class': ['error', 'always'],
+
+    /**
+     * Enforce that props are read-only
+     */
+    // 'react/prefer-read-only-props': 'off',
 
     /**
      * Enforce stateless React Components to be written as a pure function
@@ -216,6 +226,16 @@ module.exports = {
      * Enforce propTypes declarations alphabetical sorting
      */
     'react/sort-prop-types': 'off',
+
+    /**
+     * Enforce the state initialization style to be either in a constructor or with a class property
+     */
+    'react/state-in-constructor': 'error',
+
+    /**
+     * Enforces where React component static properties should be positioned.
+     */
+    // 'react/static-property-placement': ['error', 'property assignment'],
 
     /**
      * Enforce style prop value being an object

@@ -1,6 +1,6 @@
 {
   "name": "@plesk/eslint-config",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Plesk ESLint config",
   "main": "index.js",
   "files": [
@@ -13,8 +13,9 @@
   "dependencies": {
     "@plesk/eslint-plugin-plesk": "0.2.0",
     "babel-eslint": "8.2.2",
-    "eslint": "4.19.1",
-    "eslint-plugin-react": "7.7.0"
+    "eslint": "6.2.2",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react-hooks": "2.0.1"
   },
   "repository": {
     "type": "git",

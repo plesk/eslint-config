@@ -23,6 +23,11 @@ module.exports = {
     'react/jsx-closing-tag-location': 'error',
 
     /**
+     * Enforce or disallow newlines inside of curly braces in JSX attributes and expressions (fixable)
+     */
+    'react/jsx-curly-newline': 'error',
+
+    /**
      * Enforce or disallow spaces inside of curly braces in JSX attributes and expressions (fixable)
      */
     'react/jsx-curly-spacing': ['error', 'never'],
@@ -120,9 +125,24 @@ module.exports = {
     'react/jsx-curly-brace-presence': 'off',
 
     /**
+     * Enforce shorthand or standard form for React fragments
+     */
+    // 'react/jsx-fragments': 'off',
+
+    /**
      * Enforce PascalCase for user-defined JSX components
      */
     'react/jsx-pascal-case': ['error', { allowAllCaps: false, ignore: [] }],
+
+    /**
+     * Disallow multiple spaces between inline JSX props (fixable)
+     */
+    'react/jsx-props-no-multi-spaces': 'error',
+
+    /**
+     * Disallow JSX props spreading
+     */
+    'react/jsx-props-no-spreading': 'off',
 
     /**
      * Enforce default props alphabetical sorting

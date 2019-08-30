@@ -43,6 +43,11 @@ module.exports = {
     // 'no-path-concat': 'off',
 
     /**
+     * disallow the use of process.env
+     */
+    // 'no-process-env': 'off',
+
+    /**
      * disallow the use of process.exit()
      */
     // 'no-process-exit': 'off',

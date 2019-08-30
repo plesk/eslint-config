@@ -13,6 +13,11 @@ module.exports = {
     // 'getter-return': 'off',
 
     /**
+     * disallow using an async function as a Promise executor
+     */
+    'no-async-promise-executor': 'error',
+
+    /**
      * disallow await inside of loops
      */
     // 'no-await-in-loop': 'off',
@@ -113,6 +118,11 @@ module.exports = {
     'no-irregular-whitespace': 'error',
 
     /**
+     * disallow characters which are made with multiple code points in character class syntax
+     */
+    'no-misleading-character-class': 'error',
+
+    /**
      * disallow calling global object properties as functions
      */
     'no-obj-calls': 'error',
@@ -158,14 +168,14 @@ module.exports = {
     'no-unsafe-negation': 'error',
 
     /**
+     * disallow assignments that can lead to race conditions due to usage of await or yield
+     */
+    'require-atomic-updates': 'error',
+
+    /**
      * require calls to isNaN() when checking for NaN
      */
     'use-isnan': 'error',
-
-    /**
-     * enforce valid JSDoc comments
-     */
-    // 'valid-jsdoc': 'off',
 
     /**
      * enforce comparing typeof expressions against valid strings
