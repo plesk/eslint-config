@@ -230,7 +230,7 @@ module.exports = {
     /**
      * Enforce the state initialization style to be either in a constructor or with a class property
      */
-    'react/state-in-constructor': 'error',
+    'react/state-in-constructor': ['error', 'never'],
 
     /**
      * Enforces where React component static properties should be positioned.
