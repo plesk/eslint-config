@@ -43,6 +43,11 @@ module.exports = {
     // 'default-case': 'off',
 
     /**
+     * enforce default parameters to be last
+     */
+    'default-param-last': 'error',
+
+    /**
      * enforce consistent newlines before and after dots
      */
     'dot-location': ['error', 'property'],
@@ -341,6 +346,11 @@ module.exports = {
      * require using Error objects as Promise rejection reasons
      */
     // 'prefer-promise-reject-errors': 'off',
+
+    /**
+     * disallow use of the RegExp constructor in favor of regular expression literals
+     */
+    'prefer-regex-literals': 'error',
 
     /**
      * require using Error objects as Promise rejection reasons

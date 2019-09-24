@@ -1,10 +1,12 @@
 const eslint = require('./src/rules/eslint');
 const react = require('./src/rules/react');
+const jest = require('./src/rules/jest');
 const plesk = require('./src/rules/plesk');
 
 module.exports = {
     env: {
         es6: true,
+        jest: true,
         node: true,
         browser: true,
     },
@@ -17,11 +19,17 @@ module.exports = {
             experimentalObjectRestSpread: true,
         },
     },
-    plugins: ['react', 'react-hooks', '@plesk/plesk'],
+    plugins: [
+        'react',
+        'react-hooks',
+        'jest',
+        'jest-formatting',
+        '@plesk/plesk',
+    ],
     settings: {
         react: {
             version: '16.8',
         },
     },
-    rules: { ...eslint, ...react, ...plesk },
+    rules: { ...eslint, ...react, ...jest, ...plesk },
 };
