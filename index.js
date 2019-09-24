@@ -23,6 +23,7 @@ module.exports = {
         'react',
         'react-hooks',
         'jest',
+        'jest-formatting',
         '@plesk/plesk',
     ],
     settings: {
