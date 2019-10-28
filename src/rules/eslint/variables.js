@@ -50,7 +50,10 @@ module.exports = {
     /**
      * disallow unused variables
      */
-    'no-unused-vars': ['error', { ignoreRestSiblings: true }],
+    'no-unused-vars': ['error', {
+        ignoreRestSiblings: true,
+        caughtErrors: 'all',
+    }],
 
     /**
      * disallow the use of variables before they are defined
