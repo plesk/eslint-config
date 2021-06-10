@@ -23,6 +23,11 @@ module.exports = {
     'react/jsx-closing-tag-location': 'error',
 
     /**
+     * Enforce curly braces or disallow unnecessary curly braces in JSX
+     */
+    'react/jsx-curly-brace-presence': 'off',
+
+    /**
      * Enforce or disallow newlines inside of curly braces in JSX attributes and expressions (fixable)
      */
     'react/jsx-curly-newline': 'error',
@@ -46,6 +51,11 @@ module.exports = {
      * Enforce position of the first prop in JSX (fixable)
      */
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
+
+    /**
+     * Enforce shorthand or standard form for React fragments
+     */
+    // 'react/jsx-fragments': 'off',
 
     /**
      * Enforce event handler naming conventions in JSX
@@ -81,6 +91,16 @@ module.exports = {
     }],
 
     /**
+     * Require or prevent a new line after jsx elements and expressions.
+     */
+    'react/jsx-newline': [
+        'error',
+        {
+            prevent: true,
+        },
+    ],
+
+    /**
      * Prevent usage of .bind() and arrow functions in JSX props
      */
     'react/jsx-no-bind': ['error', {
@@ -95,6 +115,11 @@ module.exports = {
     'react/jsx-no-comment-textnodes': 'error',
 
     /**
+     * Prevents JSX context provider values from taking values that will cause needless rerenders.
+     */
+    'react/jsx-no-constructed-context-values': 'error',
+
+    /**
      * Prevent duplicate props in JSX
      */
     'react/jsx-no-duplicate-props': 'error',
@@ -103,6 +128,11 @@ module.exports = {
      * Prevent usage of unwrapped JSX strings
      */
     'react/jsx-no-literals': 'error',
+
+    /**
+     * Forbid javascript: URLs
+     */
+    'react/jsx-no-script-url': 'error',
 
     /**
      * Prevent usage of unsafe target='_blank'
@@ -115,19 +145,14 @@ module.exports = {
     'react/jsx-no-undef': 'error',
 
     /**
+     * Disallow unnecessary fragments
+     */
+    'react/jsx-no-useless-fragment': 'error',
+
+    /**
      * Limit to one expression per line in JSX
      */
     'react/jsx-one-expression-per-line': 'off',
-
-    /**
-     * Enforce curly braces or disallow unnecessary curly braces in JSX
-     */
-    'react/jsx-curly-brace-presence': 'off',
-
-    /**
-     * Enforce shorthand or standard form for React fragments
-     */
-    // 'react/jsx-fragments': 'off',
 
     /**
      * Enforce PascalCase for user-defined JSX components

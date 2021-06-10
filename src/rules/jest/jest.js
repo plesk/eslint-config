@@ -31,24 +31,29 @@ module.exports = {
     'jest/no-commented-out-tests': 'error',
 
     /**
+     * Prevent calling expect conditionally
+     */
+    'jest/no-conditional-expect': 'error',
+
+    /**
+     * Disallow use of deprecated functions
+     */
+    'jest/no-deprecated-functions': 'error',
+
+    /**
      * Disallow disabled tests
      */
     'jest/no-disabled-tests': 'error',
 
     /**
+     * Using a callback in asynchronous tests
+     */
+    'jest/no-done-callback': 'error',
+
+    /**
      * Disallow duplicate hooks within a describe block
      */
     'jest/no-duplicate-hooks': 'error',
-
-    /**
-     * Disallow empty titles
-     */
-    'jest/no-empty-title': 'error',
-
-    /**
-     * Disallow using expect().resolves
-     */
-    'jest/no-expect-resolves': 'error',
 
     /**
      * Disallow export from test files
@@ -76,6 +81,11 @@ module.exports = {
     'jest/no-if': 'error',
 
     /**
+     * Disallow string interpolation inside snapshots
+     */
+    'jest/no-interpolation-in-snapshots': 'error',
+
+    /**
      * Disallow Jasmine globals
      */
     'jest/no-jasmine-globals': 'error',
@@ -96,15 +106,20 @@ module.exports = {
     'jest/no-mocks-import': 'error',
 
     /**
+     * Disallow specific matchers & modifiers
+     */
+    'jest/no-restricted-matchers': [
+        'error',
+        {
+            toBeTruthy: 'Avoid `toBeTruthy`',
+            toBeFalsy: 'Avoid `toBeFalsy`',
+        },
+    ],
+
+    /**
      * Prevents expect statements outside of a test or it block
      */
     'jest/no-standalone-expect': 'error',
-
-    /**
-     * Using a callback in asynchronous tests
-     */
-    // 'jest/no-test-callback': 'error',
-    // поизучать еще
 
     /**
      * Disallow using f & x prefixes to define focused/skipped tests
@@ -117,16 +132,6 @@ module.exports = {
     'jest/no-test-return-statement': 'error',
 
     /**
-     * Disallow using toBeTruthy() & toBeFalsy()
-     */
-    'jest/no-truthy-falsy': 'error',
-
-    /**
-     * Prevent catch assertions in tests
-     */
-    'jest/no-try-expect': 'error',
-
-    /**
      * Suggest using toBeCalledWith() OR toHaveBeenCalledWith()
      */
     'jest/prefer-called-with': 'error',
@@ -137,9 +142,9 @@ module.exports = {
     'jest/prefer-expect-assertions': 'off',
 
     /**
-     * Suggest using toMatchInlineSnapshot()
+     * Suggest having hooks before any test cases
      */
-    'jest/prefer-inline-snapshots': 'off',
+    'jest/prefer-hooks-on-top': 'error',
 
     /**
      * Suggest using jest.spyOn()
@@ -177,14 +182,14 @@ module.exports = {
     'jest/prefer-todo': 'error',
 
     /**
+     * Require a message for toThrow()
+     */
+    'jest/require-to-throw-message': 'error',
+
+    /**
      * Require a top-level describe block
      */
     'jest/require-top-level-describe': 'off',
-
-    /**
-     * Require that toThrow() and toThrowError includes a message
-     */
-    'jest/require-tothrow-message': 'error',
 
     /**
      * Enforce valid describe() callback
@@ -192,12 +197,17 @@ module.exports = {
     'jest/valid-describe': 'error',
 
     /**
+     * Enforce valid expect() usage
+     */
+    'jest/valid-expect': 'error',
+
+    /**
      * Enforce having return statement when testing with promises
      */
     'jest/valid-expect-in-promise': 'error',
 
     /**
-     * Enforce valid expect() usage
+     * Enforce valid titles
      */
-    'jest/valid-expect': 'error',
+    'jest/valid-title': 'error',
 };

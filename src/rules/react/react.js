@@ -43,19 +43,35 @@ module.exports = {
     'react/forbid-elements': 'off',
 
     /**
-     * Forbid certain propTypes
-     */
-    'react/forbid-prop-types': 'off',
-
-    /**
      * Forbid foreign propTypes
      */
     'react/forbid-foreign-prop-types': 'off',
 
     /**
+     * Forbid certain propTypes
+     */
+    'react/forbid-prop-types': 'off',
+
+    /**
+      * Standardize the way function component get defined
+      */
+    'react/function-component-definition': [
+        'error',
+        {
+            namedComponents: 'arrow-function',
+            unnamedComponents: 'arrow-function',
+        },
+    ],
+
+    /**
      * Prevent using this.state inside this.setState
      */
     'react/no-access-state-in-setstate': 'error',
+
+    /**
+     * Prevent adjacent inline elements not separated by whitespace
+     */
+    'react/no-adjacent-inline-elements': 'error',
 
     /**
      * Prevent using Array index in key props
@@ -128,11 +144,6 @@ module.exports = {
     // 'react/no-set-state': 'off',
 
     /**
-     * Prevent common casing typos
-     */
-    'react/no-typos': 'error',
-
-    /**
      * Prevent using string references in ref attribute.
      */
     'react/no-string-refs': 'error',
@@ -141,6 +152,11 @@ module.exports = {
      * Prevent using this in stateless functional components
      */
     'react/no-this-in-sfc': 'error',
+
+    /**
+     * Prevent common casing typos
+     */
+    'react/no-typos': 'error',
 
     /**
      * Prevent invalid characters from appearing in markup
@@ -156,6 +172,16 @@ module.exports = {
      * Prevent usage of unsafe lifecycle methods
      */
     'react/no-unsafe': 'error',
+
+    /**
+     * Prevent creating unstable components inside components
+     */
+    'react/no-unstable-nested-components': [
+        'error',
+        {
+            allowAsProps: true,
+        },
+    ],
 
     /**
      * Prevent definitions of unused prop types
