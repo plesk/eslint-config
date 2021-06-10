@@ -9,13 +9,13 @@ ESLint configuration for Plesk projects
 ## Installation
 
 ```
-npm install --save-dev @plesk/eslint-config
+npm install --save-dev eslint @plesk/eslint-config
 ```
 
 
 ## Usage
 
-Put into your `.eslintrc`
+Put into your `.eslintrc.json`
 ```json
 {
   "extends": "@plesk/eslint-config"
