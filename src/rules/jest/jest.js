@@ -91,11 +91,6 @@ module.exports = {
     'jest/no-jasmine-globals': 'error',
 
     /**
-     * Disallow importing jest
-     */
-    'jest/no-jest-import': 'error',
-
-    /**
      * Disallow large snapshots
      */
     'jest/no-large-snapshots': 'off',
@@ -157,14 +152,9 @@ module.exports = {
     'jest/prefer-strict-equal': 'error',
 
     /**
-     * Suggest using toBeNull()
+     * Suggest using `toBe()` for primitive literals
      */
-    'jest/prefer-to-be-null': 'error',
-
-    /**
-     * Suggest using toBeUndefined()
-     */
-    'jest/prefer-to-be-undefined': 'error',
+    'jest/prefer-to-be': 'error',
 
     /**
      * Suggest using toContain()
@@ -194,7 +184,7 @@ module.exports = {
     /**
      * Enforce valid describe() callback
      */
-    'jest/valid-describe': 'error',
+    'jest/valid-describe-callback': 'error',
 
     /**
      * Enforce valid expect() usage
