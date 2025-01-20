@@ -15,9 +15,14 @@ npm install --save-dev eslint @plesk/eslint-config
 
 ## Usage
 
-Put into your `.eslintrc.json`
-```json
-{
-  "extends": "@plesk/eslint-config"
-}
+Example of `eslint.config.mjs`:
+```js
+import plesk from "@plesk/eslint-config";
+
+export default [
+    plesk,
+    {
+      // your overrides here
+    }
+] 
 ```
