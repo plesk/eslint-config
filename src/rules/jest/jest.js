@@ -76,11 +76,6 @@ module.exports = {
     'jest/no-identical-title': 'error',
 
     /**
-     * Disallow conditional logic
-     */
-    'jest/no-if': 'error',
-
-    /**
      * Disallow string interpolation inside snapshots
      */
     'jest/no-interpolation-in-snapshots': 'error',
