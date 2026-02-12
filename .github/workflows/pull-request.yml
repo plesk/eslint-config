@@ -1,0 +1,17 @@
+name: Pull Request Checks
+
+on:
+  pull_request:
+    branches:
+      - master
+    types: [ opened, synchronize, reopened, ready_for_review ]
+
+concurrency:
+  group: pull-request-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  tests:
+    name: Tests Workflow
+    uses: ./.github/workflows/.includes-tests.yml
+    if: github.event.pull_request.draft == false
