@@ -18,12 +18,12 @@
     "test": "yarn lint"
   },
   "dependencies": {
-    "@babel/eslint-parser": "7.26.5",
-    "@plesk/eslint-plugin-plesk": "0.2.0",
-    "eslint-plugin-jest": "28.11.0",
-    "eslint-plugin-jest-formatting": "3.1.0",
-    "eslint-plugin-react": "7.37.4",
-    "eslint-plugin-react-hooks": "5.1.0",
+    "@babel/eslint-parser": "^7.26.5",
+    "@plesk/eslint-plugin-plesk": "^0.2.0",
+    "eslint-plugin-jest": "^28.11.0",
+    "eslint-plugin-jest-formatting": "^3.1.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
     "globals": "^15.14.0"
   },
   "peerDependencies": {
