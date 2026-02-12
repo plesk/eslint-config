@@ -10,5 +10,9 @@ updates:
       - dependency-name: "eslint"
         update-types:
           - "version-update:semver-major" #https://github.com/jsx-eslint/eslint-plugin-react/issues/3977
+    groups:
+      main:
+        patterns:
+          - "*"
     commit-message:
       prefix: "TECH Dependabot [npm] "
