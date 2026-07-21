@@ -1,6 +1,6 @@
 {
   "name": "@plesk/eslint-config",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "Plesk ESLint config",
   "repository": {
     "type": "git",
